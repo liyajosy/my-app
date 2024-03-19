@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/my-page",
   output: "export",
@@ -5,4 +6,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
