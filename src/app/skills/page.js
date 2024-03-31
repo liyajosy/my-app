@@ -10,7 +10,7 @@ import skills from '/public/skills.png';
 
 export default function Skills(){
     return(
-        <div className='bg-blue-200 min-h-screen'> 
+        <div className='bg-blue-100 min-h-screen'> 
           <div className="p-2">
             <h2 className='font-bold p-2'>
               About me
@@ -21,11 +21,11 @@ export default function Skills(){
             </p>
             <br></br>
             <p className='pl-10  pr-20'>
-              I like to build web apps using React.
+              I like to build web apps using React and NextJs.
             </p>
           </div>
           <div className="p-2 ">
-            <h2 className='font-bold text-center'>
+            <h2 className='font-bold'>
               Skills
             </h2>
            
@@ -66,6 +66,7 @@ export default function Skills(){
                 <p className="p-1">Python</p>
                 <p className="p-1">Nodejs</p>
                 <p className="p-1">MySQL</p>
+                <p>MongoDB</p>
                 
               </div>
               <div className="w-1/4 p-1  p-1 m-2 bg-blue-50 text-center rounded-md" >
@@ -87,30 +88,30 @@ export default function Skills(){
                
             
               </div>
-              <div className="w-1/4 p-1  p-1 m-2 bg-blue-50 text-center rounded-md" >
-              <div className="justify-items-center pl-20 flex flex-row pb-2">
-                
-                <Image
-                src={skills}
-               width={30}
-                height={30}
-       
-                alt="github"
-                />
-                <h4 className='font-bold '>Soft skills</h4>
-                </div>
-                <p className="p-1">Adaptable</p>
-                <p className="p-1">Efficient learner</p>
-                <p className="p-1">Team player</p>
-                <p className="p-1">Problem solver</p>
-                <p className="p-1">Supportive</p>
-            
-              </div>
+             
 
             </div>
            
 
         
+       </div>
+       <div>
+       <div className="p-2">
+            <h2 className='font-bold p-2'>
+              Certification
+            </h2>
+            <div className='underline text-sky-900'> 
+            <Link href ="https://www.freecodecamp.org/certification/LiyaJosy/back-end-development-and-apis" target="_blank">
+              1. Back end development Certification by freecodecamp
+            </Link>
+            </div>
+            <div className='underline text-sky-900'> 
+            <Link href ="https://www.freecodecamp.org/certification/LiyaJosy/responsive-web-design" target="_blank">
+              2. Responsive web design
+            </Link>
+            </div>
+           
+        </div>
        </div>
         </div>
     )
