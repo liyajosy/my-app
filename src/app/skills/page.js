@@ -97,19 +97,17 @@ export default function Skills(){
        </div>
        <div>
        <div className="p-2">
-            <h2 className='font-bold p-2'>
-              Certification
+             <h2 className='font-bold p-2'>
+              Certifications:
             </h2>
-            <div className='underline text-sky-900'> 
-            <Link href ="https://www.freecodecamp.org/certification/LiyaJosy/back-end-development-and-apis" target="_blank">
+           <ul className='list-disc'>
+              <li>
               1. Back end development Certification by freecodecamp
-            </Link>
-            </div>
-            <div className='underline text-sky-900'> 
-            <Link href ="https://www.freecodecamp.org/certification/LiyaJosy/responsive-web-design" target="_blank">
-              2. Responsive web design
-            </Link>
-            </div>
+              </li>
+              <li>
+              2. Responsive web design by freecodecamp
+              </li>
+           </ul>
            
         </div>
        </div>
